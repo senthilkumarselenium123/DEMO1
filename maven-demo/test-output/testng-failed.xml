@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Suite]">
+  <test parallel="none" name="Default test(failed)">
+    <classes>
+      <class name="com.testng.NewTest">
+        <methods>
+          <include name="f"/>
+        </methods>
+      </class> <!-- com.testng.NewTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
