@@ -14,7 +14,11 @@ public class NewTest {
 	  if(lBrowser.equals("CHROME"))
 	  {
 		App.sample3();
-	  }else
+	  }
+	  
+	  
+	  
+	  else
 	  {
 		  App.sample3();
 		  App.sample3();
