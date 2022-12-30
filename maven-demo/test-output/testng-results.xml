@@ -1,201 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results total="14" passed="14" failed="0" skipped="0">
+<testng-results total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-12-29T18:15:32Z" name="Suite" finished-at="2022-12-29T18:15:32Z" duration-ms="82">
+  <suite started-at="2022-12-30T22:27:29Z" name="Default suite" finished-at="2022-12-30T22:27:46Z" duration-ms="17052">
     <groups>
     </groups>
-    <test started-at="2022-12-29T18:15:32Z" name="Parallel Tests" finished-at="2022-12-29T18:15:32Z" duration-ms="82">
-      <class name="com.testng.NewTest1">
-        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.testng.NewTest1@399c4be1]" started-at="2022-12-29T23:45:32Z" name="beforeSuite" finished-at="2022-12-29T23:45:32Z" duration-ms="10" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeSuite -->
-        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.testng.NewTest2@7494f96a]" started-at="2022-12-29T23:45:32Z" name="beforeSuite" finished-at="2022-12-29T23:45:32Z" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeSuite -->
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.testng.NewTest1@399c4be1]" started-at="2022-12-29T23:45:32Z" name="beforeTest" finished-at="2022-12-29T23:45:32Z" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.testng.NewTest2@7494f96a]" started-at="2022-12-29T23:45:32Z" name="beforeTest" finished-at="2022-12-29T23:45:32Z" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.testng.NewTest1@399c4be1]" started-at="2022-12-29T23:45:32Z" name="beforeClass" finished-at="2022-12-29T23:45:32Z" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.testng.NewTest1@399c4be1]" started-at="2022-12-29T23:45:32Z" name="beforeMethod" finished-at="2022-12-29T23:45:32Z" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="f(java.lang.Integer, java.lang.String)[pri:0, instance:com.testng.NewTest1@399c4be1]" started-at="2022-12-29T23:45:32Z" name="f" data-provider="dp" finished-at="2022-12-29T23:45:32Z" duration-ms="11" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[1]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[a]]>
-              </value>
-            </param>
-          </params>
+    <test started-at="2022-12-30T22:27:29Z" name="Default test" finished-at="2022-12-30T22:27:46Z" duration-ms="17052">
+      <class name="com.testng.NewTest">
+        <test-method signature="f()[pri:0, instance:com.testng.NewTest@df6620a]" started-at="2022-12-31T03:57:29Z" name="f" finished-at="2022-12-31T03:57:39Z" duration-ms="9597" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.testng.NewTest1@399c4be1]" started-at="2022-12-29T23:45:32Z" name="afterMethod" finished-at="2022-12-29T23:45:32Z" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.testng.NewTest1@399c4be1]" started-at="2022-12-29T23:45:32Z" name="beforeMethod" finished-at="2022-12-29T23:45:32Z" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="f(java.lang.Integer, java.lang.String)[pri:0, instance:com.testng.NewTest1@399c4be1]" started-at="2022-12-29T23:45:32Z" name="f" data-provider="dp" finished-at="2022-12-29T23:45:32Z" duration-ms="6" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[2]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[b]]>
-              </value>
-            </param>
-          </params>
+        <test-method signature="f()[pri:0, instance:com.testng.NewTest@df6620a]" started-at="2022-12-31T03:57:29Z" name="f" finished-at="2022-12-31T03:57:39Z" duration-ms="9954" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.testng.NewTest1@399c4be1]" started-at="2022-12-29T23:45:32Z" name="afterMethod" finished-at="2022-12-29T23:45:32Z" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.testng.NewTest1@399c4be1]" started-at="2022-12-29T23:45:32Z" name="afterClass" finished-at="2022-12-29T23:45:32Z" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClass -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.testng.NewTest1@399c4be1]" started-at="2022-12-29T23:45:32Z" name="afterTest" finished-at="2022-12-29T23:45:32Z" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.testng.NewTest2@7494f96a]" started-at="2022-12-29T23:45:32Z" name="afterTest" finished-at="2022-12-29T23:45:32Z" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.testng.NewTest1@399c4be1]" started-at="2022-12-29T23:45:32Z" name="afterSuite" finished-at="2022-12-29T23:45:32Z" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterSuite -->
-        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.testng.NewTest2@7494f96a]" started-at="2022-12-29T23:45:32Z" name="afterSuite" finished-at="2022-12-29T23:45:32Z" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterSuite -->
-      </class> <!-- com.testng.NewTest1 -->
-      <class name="com.testng.NewTest2">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.testng.NewTest2@7494f96a]" started-at="2022-12-29T23:45:32Z" name="beforeClass" finished-at="2022-12-29T23:45:32Z" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.testng.NewTest2@7494f96a]" started-at="2022-12-29T23:45:32Z" name="beforeMethod" finished-at="2022-12-29T23:45:32Z" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="f(java.lang.Integer, java.lang.String)[pri:0, instance:com.testng.NewTest2@7494f96a]" started-at="2022-12-29T23:45:32Z" name="f" data-provider="dp" finished-at="2022-12-29T23:45:32Z" duration-ms="16" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[1]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[a]]>
-              </value>
-            </param>
-          </params>
+        <test-method signature="f()[pri:0, instance:com.testng.NewTest@df6620a]" started-at="2022-12-31T03:57:39Z" name="f" finished-at="2022-12-31T03:57:46Z" duration-ms="7154" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.testng.NewTest2@7494f96a]" started-at="2022-12-29T23:45:32Z" name="afterMethod" finished-at="2022-12-29T23:45:32Z" duration-ms="7" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.testng.NewTest2@7494f96a]" started-at="2022-12-29T23:45:32Z" name="beforeMethod" finished-at="2022-12-29T23:45:32Z" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="f(java.lang.Integer, java.lang.String)[pri:0, instance:com.testng.NewTest2@7494f96a]" started-at="2022-12-29T23:45:32Z" name="f" data-provider="dp" finished-at="2022-12-29T23:45:32Z" duration-ms="3" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[2]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[b]]>
-              </value>
-            </param>
-          </params>
+        <test-method signature="f()[pri:0, instance:com.testng.NewTest@df6620a]" started-at="2022-12-31T03:57:39Z" name="f" finished-at="2022-12-31T03:57:46Z" duration-ms="7032" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.testng.NewTest2@7494f96a]" started-at="2022-12-29T23:45:32Z" name="afterMethod" finished-at="2022-12-29T23:45:32Z" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.testng.NewTest2@7494f96a]" started-at="2022-12-29T23:45:32Z" name="afterClass" finished-at="2022-12-29T23:45:32Z" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClass -->
-      </class> <!-- com.testng.NewTest2 -->
-      <class name="com.testng.NewTest3">
-        <test-method signature="afterSuite()[pri:0, instance:com.testng.NewTest3@5fbe4146]" started-at="2022-12-29T23:45:32Z" name="afterSuite" finished-at="2022-12-29T23:45:32Z" duration-ms="9" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterSuite -->
-        <test-method signature="afterSuite()[pri:0, instance:com.testng.NewTest3@5fbe4146]" started-at="2022-12-29T23:45:32Z" name="afterSuite" finished-at="2022-12-29T23:45:32Z" duration-ms="13" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterSuite -->
-        <test-method signature="afterSuite()[pri:0, instance:com.testng.NewTest3@5fbe4146]" started-at="2022-12-29T23:45:32Z" name="afterSuite" finished-at="2022-12-29T23:45:32Z" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterSuite -->
-        <test-method signature="afterSuite()[pri:0, instance:com.testng.NewTest3@5fbe4146]" started-at="2022-12-29T23:45:32Z" name="afterSuite" finished-at="2022-12-29T23:45:32Z" duration-ms="4" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterSuite -->
-        <test-method signature="afterSuite()[pri:0, instance:com.testng.NewTest3@5fbe4146]" started-at="2022-12-29T23:45:32Z" name="afterSuite" finished-at="2022-12-29T23:45:32Z" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterSuite -->
-        <test-method signature="afterSuite()[pri:0, instance:com.testng.NewTest3@5fbe4146]" started-at="2022-12-29T23:45:32Z" name="afterSuite" finished-at="2022-12-29T23:45:32Z" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterSuite -->
-        <test-method signature="afterSuite()[pri:0, instance:com.testng.NewTest3@5fbe4146]" started-at="2022-12-29T23:45:32Z" name="afterSuite" finished-at="2022-12-29T23:45:32Z" duration-ms="8" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterSuite -->
-        <test-method signature="afterSuite()[pri:0, instance:com.testng.NewTest3@5fbe4146]" started-at="2022-12-29T23:45:32Z" name="afterSuite" finished-at="2022-12-29T23:45:32Z" duration-ms="5" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterSuite -->
-        <test-method signature="afterSuite()[pri:0, instance:com.testng.NewTest3@5fbe4146]" started-at="2022-12-29T23:45:32Z" name="afterSuite" finished-at="2022-12-29T23:45:32Z" duration-ms="11" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterSuite -->
-        <test-method signature="afterSuite()[pri:0, instance:com.testng.NewTest3@5fbe4146]" started-at="2022-12-29T23:45:32Z" name="afterSuite" finished-at="2022-12-29T23:45:32Z" duration-ms="4" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterSuite -->
-      </class> <!-- com.testng.NewTest3 -->
-    </test> <!-- Parallel Tests -->
-  </suite> <!-- Suite -->
+      </class> <!-- com.testng.NewTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
