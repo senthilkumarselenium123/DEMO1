@@ -8,4 +8,4 @@
 	  <class name="com.testng.seleniumDemo"/>
     </classes>
   </test> <!-- Test -->
-</suite> <!-- Suitett -->
+</suite> <!-- Suite -->
