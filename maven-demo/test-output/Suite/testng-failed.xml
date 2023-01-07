@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite parallel="none" name="Failed suite [Suite]">
-  <test parallel="none" name="Default test(failed)">
+<suite name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.testng.RetryListener"/>
+  </listeners>
+  <test parallel="classes" name="Parallel Tests(failed)">
     <classes>
-      <class name="com.testng.NewTest">
+      <class name="com.testng.RetryANalyzerDemo">
         <methods>
           <include name="f"/>
         </methods>
-      </class> <!-- com.testng.NewTest -->
+      </class> <!-- com.testng.RetryANalyzerDemo -->
     </classes>
-  </test> <!-- Default test(failed) -->
+  </test> <!-- Parallel Tests(failed) -->
 </suite> <!-- Failed suite [Suite] -->

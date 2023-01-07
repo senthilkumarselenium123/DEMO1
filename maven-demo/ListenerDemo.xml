@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <suite parallel="false" name="Suite">
   <test name = "Parallel Tests" parallel = "classes" thread-count = "0">
+
+  <listeners>
+    <listener class-name="com.testng.RetryListener" />
+  </listeners>
+
+
     <classes>
-     <!-- <class name="com.testng.NewTest1"/>
-      <class name="com.testng.NewTest2"/>
-	  <class name="com.testng.NewTest3"/> -->
-	  <class name="com.testng.seleniumDemo"/>
+      <class name="com.testng.RetryANalyzerDemo"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suitett -->

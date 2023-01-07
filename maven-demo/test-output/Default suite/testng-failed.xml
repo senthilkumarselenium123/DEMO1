@@ -3,14 +3,11 @@
 <suite parallel="none" name="Failed suite [Default suite]">
   <test parallel="none" name="Default test(failed)">
     <classes>
-      <class name="webDriverFactory.FactoryPatternTest">
+      <class name="com.testng.seleniumDemo">
         <methods>
-          <include name="beforeMethod"/>
-          <include name="launchGoogleTest"/>
-          <include name="launchYahooTest"/>
-          <include name="beforeTest"/>
+          <include name="f"/>
         </methods>
-      </class> <!-- webDriverFactory.FactoryPatternTest -->
+      </class> <!-- com.testng.seleniumDemo -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
