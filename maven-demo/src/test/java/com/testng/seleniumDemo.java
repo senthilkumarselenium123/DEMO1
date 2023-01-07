@@ -40,7 +40,7 @@ public class seleniumDemo {
   @Test (invocationCount = 0,threadPoolSize =02)
   public void f() throws IOException {
 	  
-	  ExtentReports reports = new ExtentReports("C:\\Users\\infok\\OneDrive\\Documents\\GitHub\\DEMO1\\maven-demo\\target\\Senthil\\SeleniumDemo.html");
+	  ExtentReports reports = new ExtentReports("C:\\Users\\infok\\OneDrive\\Documents\\GitHub\\DEMO1\\maven-demo\\target\\SeleniumDemo.html");
 
 	  ExtentTest test = reports.startTest("SeleniumDemo");
 	  
@@ -74,7 +74,7 @@ public class seleniumDemo {
   
   public static String capture(DriverFactory objdriver) throws IOException {
 	  File scrFile = ((TakesScreenshot) objdriver.getDriver()).getScreenshotAs(OutputType.FILE);
-	  File Dest = new File("C:\\Users\\infok\\OneDrive\\Documents\\GitHub\\DEMO1\\maven-demo\\target\\Senthil\\" + System.currentTimeMillis()
+	  File Dest = new File("C:\\Users\\infok\\OneDrive\\Documents\\GitHub\\DEMO1\\maven-demo\\target\\" + System.currentTimeMillis()
 	  + ".png");
 	  String errflpath = Dest.getAbsolutePath();
 	  FileUtils.copyFile(scrFile, Dest);
