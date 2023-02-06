@@ -5,7 +5,7 @@
      <!-- <class name="com.testng.NewTest1"/>
       <class name="com.testng.NewTest2"/>
 	  <class name="com.testng.NewTest3"/> -->
-	  <class name="com.testng.seleniumDemo"/>
+	  <class name="com.testng.BrowserStack"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
