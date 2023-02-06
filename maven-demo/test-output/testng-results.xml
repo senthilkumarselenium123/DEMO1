@@ -2,16 +2,16 @@
 <testng-results total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-01-07T19:00:18Z" name="Default suite" finished-at="2023-01-07T19:00:42Z" duration-ms="24050">
+  <suite started-at="2023-02-05T14:47:32Z" name="Default suite" finished-at="2023-02-05T14:47:44Z" duration-ms="12372">
     <groups>
     </groups>
-    <test started-at="2023-01-07T19:00:18Z" name="Default test" finished-at="2023-01-07T19:00:42Z" duration-ms="24050">
-      <class name="com.testng.seleniumDemo">
-        <test-method signature="f()[pri:0, instance:com.testng.seleniumDemo@6cb6decd]" started-at="2023-01-08T00:30:18Z" name="f" finished-at="2023-01-08T00:30:42Z" duration-ms="24035" status="PASS">
+    <test started-at="2023-02-05T14:47:32Z" name="Default test" finished-at="2023-02-05T14:47:44Z" duration-ms="12372">
+      <class name="com.testng.BrowserStack">
+        <test-method signature="f()[pri:0, instance:com.testng.BrowserStack@7357a011]" started-at="2023-02-05T20:17:32Z" name="f" finished-at="2023-02-05T20:17:44Z" duration-ms="12355" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
-      </class> <!-- com.testng.seleniumDemo -->
+      </class> <!-- com.testng.BrowserStack -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -101,6 +101,11 @@
   <version>6.8</version>
 </dependency>
 
+<dependency>
+  <groupId>com.browserstack</groupId>
+  <artifactId>browserstack-local-java</artifactId>
+  <version>1.0.6</version>
+</dependency>
 
 <!-- https://mvnrepository.com/artifact/net.sourceforge.cobertura/cobertura -->
 <dependency>

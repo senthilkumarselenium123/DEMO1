@@ -3,11 +3,11 @@
 <suite parallel="none" name="Failed suite [Default suite]">
   <test parallel="none" name="Default test(failed)">
     <classes>
-      <class name="com.testng.seleniumDemo">
+      <class name="com.testng.BrowserStack">
         <methods>
           <include name="f"/>
         </methods>
-      </class> <!-- com.testng.seleniumDemo -->
+      </class> <!-- com.testng.BrowserStack -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
