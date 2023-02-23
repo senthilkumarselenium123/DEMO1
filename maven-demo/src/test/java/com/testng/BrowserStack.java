@@ -80,23 +80,6 @@ public class BrowserStack {
 	  MutableCapabilities capabilities = new MutableCapabilities();
 	  WebDriver driver = new RemoteWebDriver(new URL(URL), capabilities);
 		System.out.println("PASSSS");
-//	  Local bsLocal = new Local();
-//	  
-//		// You can also set an environment variable - "BROWSERSTACK_ACCESS_KEY".
-//		HashMap<String, String> bsLocalArgs = new HashMap<String, String>();
-//		  
-//		bsLocalArgs.put("key", "dScf9K7RqHr4JZWDYMBR");
-//		  
-//		// Starts the Local instance with the required arguments
-//		bsLocal.start(bsLocalArgs);
-//		   
-//		// Check if BrowserStack local instance is running
-//		System.out.println(bsLocal.isRunning());
-//		  
-//		// Your test code goes here, from creating the driver instance till the end, i.e. driver.quit
-//		  
-//		// Stop the Local instance after your test run is completed, i.e after driver.quit
-//		bsLocal.stop();
 		
 		HashMap<String, Object> browserstackOptions = new HashMap<String, Object>();
 		browserstackOptions.put("local", "true");
