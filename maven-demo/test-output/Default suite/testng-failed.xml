@@ -5,7 +5,7 @@
     <classes>
       <class name="com.testng.seleniumDemo_Headless">
         <methods>
-          <include name="f"/>
+          <include name="verifyTitle"/>
         </methods>
       </class> <!-- com.testng.seleniumDemo_Headless -->
     </classes>

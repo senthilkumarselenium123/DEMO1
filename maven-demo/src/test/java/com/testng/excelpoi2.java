@@ -13,14 +13,14 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 public class excelpoi2 
 {
-	public static String html = "<input class=\"ais-SearchBox-input\" id=\"doc-search-box-input\" name=\"query\" type=\"search\" placeholder=\"Search across browserstack.com\" autocomplete=\"off\" autocorrect=\"off\" autocapitalize=\"off\" maxlength=\"512\" autofocus aria-label=\"Search across browserstack.com\">\r\n"
-			+ "<input type=\"hidden\" value=\"all\" name=\"type\">\r\n"
-			+ "<input autocomplete=\"off\" class=\"text input-lg input-primary input-margin\" id=\"live-form-url\" name=\"url\" placeholder=\"www.website.com\" type=\"text\" aria-label=\"Type URL\" aria-required=\"true\">\r\n"
-			+ "<input id=\"live-form-submit-btn\" class=\"btn-lg btn-primary\" data-btndisabled=\"Validating...\" data-btntext=\"Start test\" type=\"submit\" value=\"Start test\" role=\"button\">\r\n"
-			+ "<input autocomplete=\"off\" class=\"text input-lg input-primary input-margin\" id=\"live-local-testing-url\" name=\"url\" placeholder=\"www.website.com\" type=\"text\" aria-label=\"Type URL\" aria-required=\"true\">\r\n"
-			+ "<input id=\"live-local-testing-submit-btn\" class=\"live-local-testing-form__btnholder-btn btn-lg btn-primary\" data-btndisabled=\"Validating...\" data-btntext=\"Start test\" type=\"submit\" value=\"Start test\" role=\"button\">";
+//	public static String html = "<input class=\"ais-SearchBox-input\" id=\"doc-search-box-input\" name=\"query\" type=\"search\" placeholder=\"Search across browserstack.com\" autocomplete=\"off\" autocorrect=\"off\" autocapitalize=\"off\" maxlength=\"512\" autofocus aria-label=\"Search across browserstack.com\">\r\n"
+//			+ "<input type=\"hidden\" value=\"all\" name=\"type\">\r\n"
+//			+ "<input autocomplete=\"off\" class=\"text input-lg input-primary input-margin\" id=\"live-form-url\" name=\"url\" placeholder=\"www.website.com\" type=\"text\" aria-label=\"Type URL\" aria-required=\"true\">\r\n"
+//			+ "<input id=\"live-form-submit-btn\" class=\"btn-lg btn-primary\" data-btndisabled=\"Validating...\" data-btntext=\"Start test\" type=\"submit\" value=\"Start test\" role=\"button\">\r\n"
+//			+ "<input autocomplete=\"off\" class=\"text input-lg input-primary input-margin\" id=\"live-local-testing-url\" name=\"url\" placeholder=\"www.website.com\" type=\"text\" aria-label=\"Type URL\" aria-required=\"true\">\r\n"
+//			+ "<input id=\"live-local-testing-submit-btn\" class=\"live-local-testing-form__btnholder-btn btn-lg btn-primary\" data-btndisabled=\"Validating...\" data-btntext=\"Start test\" type=\"submit\" value=\"Start test\" role=\"button\">";
 
-    public static void main(String[] args) 
+    public static void testinput(String htmlinput) 
     {
         //Blank workbook
         XSSFWorkbook workbook = new XSSFWorkbook(); 
@@ -36,8 +36,8 @@ public class excelpoi2
 //        data.put("4", new Object[] {3, "John", "Adwards"});
 //        data.put("5", new Object[] {4, "Brian", "Schultz"});
           
-        String htmlsplit[] = html.split("<input ");
-    	
+        String htmlsplit[] = htmlinput.split("<input ");
+    	System.out.println("Lenght%%%^^^:              "+htmlsplit.length);
     	for(int i=0;i<htmlsplit.length;i++)
     	{
 //    		data.put(""+i+1 , new Object[] {"S.No", "Input", "Loc1", "Loc2", "Loc3", "Loc4", "Loc5", "Loc6", "Loc7"});
