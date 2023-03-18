@@ -55,9 +55,12 @@ public class seleniumDemo_Headless {
 	  ExtentTest test = reports.startTest("SeleniumDemo");
 	  
 		//  App.sample3();
-	  DriverFactory objdriver = new DriverFactory();
-		
+	    DriverFactory objdriver = new DriverFactory();
+	    ChromeOptions options=new ChromeOptions();
+		options.addArguments("headless");
+		options.addArguments("--remote-allow-origins=*");
 		WebDriverManager.chromedriver().setup();
+		
 //		driver = new ChromeDriver();
 		objdriver.setDriver(new ChromeDriver());
 		objdriver.getDriver().get("https://www.google.com");
@@ -86,7 +89,8 @@ public class seleniumDemo_Headless {
 	  WebDriver driver;
 	//WebDriverManager.chromedriver().setup();
 	ChromeOptions options=new ChromeOptions();
-	options.addArguments("headless");
+//	options.addArguments("headless");
+	options.addArguments("--remote-allow-origins=*");
 	driver=new ChromeDriver(options);
 	driver.get("https://www.browserstack.com/");
 	System.out.println("Title is: " +driver.getTitle());
