@@ -94,14 +94,34 @@ public class Locators {
 
     public static String seleniumLocator;
 	
-	public static String textBoxXpath(String inputname) throws Exception {
+	public static String inputTagXpath(String inputname) throws Exception {
 	    setExcelFile("C:\\\\Users\\\\infok\\\\OneDrive\\\\Desktop\\\\Input.xlsx", "InputLocators");
-	    System.out.println("output");
-	    for(int i=1;i<=10;i++) {
-	    //System.out.println(getCellData("Input", 1));
-	    String inputName = getCellData("Input", i);
+	    
+	    for(int i=1;i<=1000;i++) {
+	    
+	    String inputName = getCellData("Input_Variable", i);
 	    if(inputName.equals(inputname)) {
-	    	System.out.println(getCellData("Input", i));
+	    	System.out.println(getCellData("Input_Variable", i));
+	    	System.out.println(getCellData("Loc1", i));
+		    System.out.println(getCellData("Loc2", i));
+		    System.out.println(getCellData("Loc3", i));
+//		    seleniumLocator = "//*["+"@"+getCellData("Loc1", i)+"and @"+getCellData("Loc2", i)+"and @"+getCellData("Loc3", i)+"]";
+		    seleniumLocator = "//*["+"@"+getCellData("Loc1", i)+"and @"+getCellData("Loc2", i)+"]";
+		    break;
+	    }
+	    }
+		return seleniumLocator;
+	    
+	}
+	
+	public static String textAreaXpath(String inputname) throws Exception {
+	    setExcelFile("C:\\\\Users\\\\infok\\\\OneDrive\\\\Desktop\\\\Input.xlsx", "TextareaLocators");
+	    
+	    for(int i=1;i<=1000;i++) {
+	    
+	    String inputName = getCellData("TextArea_Variable", i);
+	    if(inputName.equals(inputname)) {
+	    	System.out.println(getCellData("TextArea_Variable", i));
 	    	System.out.println(getCellData("Loc1", i));
 		    System.out.println(getCellData("Loc2", i));
 		    System.out.println(getCellData("Loc3", i));
@@ -113,14 +133,33 @@ public class Locators {
 	    
 	}
 	
-	public static String buttonXpath(String inputname) throws Exception {
-	    setExcelFile("C:\\\\Users\\\\infok\\\\OneDrive\\\\Desktop\\\\Button.xlsx", "InputLocators");
-	    System.out.println("output");
-	    for(int i=1;i<=10;i++) {
-	    //System.out.println(getCellData("Input", 1));
-	    String inputName = getCellData("Input", i);
+	public static String optionTagXpath(String inputname) throws Exception {
+	    setExcelFile("C:\\\\Users\\\\infok\\\\OneDrive\\\\Desktop\\\\Input.xlsx", "DropDownLocators");
+	    
+	    for(int i=1;i<=1000;i++) {
+	    
+	    String inputName = getCellData("DropDown_Variable", i);
 	    if(inputName.equals(inputname)) {
-	    	System.out.println(getCellData("Input", i));
+	    	System.out.println(getCellData("DropDown_Variable", i));
+	    	System.out.println(getCellData("Loc1", i));
+		    System.out.println(getCellData("Loc2", i));
+		    System.out.println(getCellData("Loc3", i));
+		    seleniumLocator = "//select/option["+"@"+getCellData("Loc1", i)+"]";
+		    break;
+	    }
+	    }
+		return seleniumLocator;
+	    
+	}
+	
+	public static String buttonXpath(String inputname) throws Exception {
+	    setExcelFile("C:\\\\Users\\\\infok\\\\OneDrive\\\\Desktop\\\\Input.xlsx", "ButtonLocators");
+	    
+	    for(int i=1;i<=1000;i++) {
+	    
+	    String inputName = getCellData("Button_Variable", i);
+	    if(inputName.equals(inputname)) {
+	    	System.out.println(getCellData("Button_Variable", i));
 	    	System.out.println(getCellData("Loc1", i));
 		    System.out.println(getCellData("Loc2", i));
 		    System.out.println(getCellData("Loc3", i));
@@ -133,9 +172,9 @@ public class Locators {
 	}
 	public static void main(String []args) throws Exception {
 	    setExcelFile("C:\\\\Users\\\\infok\\\\OneDrive\\\\Desktop\\\\Input.xlsx", "InputLocators");
-	    System.out.println("output");
-	    for(int i=1;i<=10;i++) {
-	    //System.out.println(getCellData("Input", 1));
+	    
+	    for(int i=1;i<=1000;i++) {
+	    
 	    String inputName = getCellData("Input", i);
 	    if(inputName.equals("Input_autocompleteoff")) {
 	    	System.out.println(getCellData("Input", i));
