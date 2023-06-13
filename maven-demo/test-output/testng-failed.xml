@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.testng.seleniumDemo_Headless">
+      <class name="com.testngexample.DataProviderTestNgExample">
         <methods>
-          <include name="verifyTitle"/>
+          <include name="carLoan"/>
         </methods>
-      </class> <!-- com.testng.seleniumDemo_Headless -->
+      </class> <!-- com.testngexample.DataProviderTestNgExample -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

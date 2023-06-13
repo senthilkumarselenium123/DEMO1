@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Suite">
+  <test name = "Parallel Tests" parallel = "classes" thread-count = "0">
+    <classes>
+      <class name="com.testngexample.AllAnnotationTest_CarLoan"/>
+      <class name="com.testngexample.AllAnnotationTest_HomeLoan"/>
+	  <class name="com.testngexample.AllAnnotationTest_PersonalLoan"/> 
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
